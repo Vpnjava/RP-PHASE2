@@ -1,0 +1,30 @@
+{
+  "MoneyLaundering": {
+    "NPCDealer": {
+      "ExchangeRate": 0.75,
+      "DailyCap": 50000,
+      "Location": {
+        "coordinates": [0, 0, 0],
+        "name": "Underground Dealer"
+      }
+    },
+    "PropertyInvestment": {
+      "ExchangeRate": 0.85,
+      "CleanProfitRate": 0.05,
+      "RequiresAccountingOversight": true
+    }
+  },
+  "Detection": {
+    "SuspiciousThreshold": 25000,
+    "AlertAuthorities": true,
+    "LogAllTransactions": true
+  },
+  "Penalties": {
+    "AttemptFine": 2000,
+    "ToolPossessionFine": 2000,
+    "JailTimeMin": 15,
+    "JailTimeMax": 25
+  },
+  "SchemaVersion": "1.0.0",
+  "BuildID": "DICTATOR_RP_V1"
+}

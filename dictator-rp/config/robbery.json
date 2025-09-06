@@ -1,0 +1,26 @@
+{
+  "Robbery": {
+    "Bank": {
+      "GlobalCooldownMin": 60,
+      "RequiredPoliceOnline": 10,
+      "ExcludeAFK": true
+    },
+    "Store": {
+      "PerStoreCooldownMin": 15,
+      "RequiredPoliceOnline": 3,
+      "ExcludeAFK": true
+    }
+  },
+  "MajorCrimes": {
+    "RequiredPoliceOnline": 10,
+    "ExcludeAFK": true,
+    "Types": [
+      "bank_robbery",
+      "big_smuggling",
+      "hostage_situation",
+      "prison_break"
+    ]
+  },
+  "SchemaVersion": "1.0.0",
+  "BuildID": "DICTATOR_RP_V1"
+}

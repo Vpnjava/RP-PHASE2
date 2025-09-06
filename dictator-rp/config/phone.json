@@ -1,0 +1,47 @@
+{
+  "PhoneV3": {
+    "Features": {
+      "VoiceCalls": true,
+      "Contacts": true,
+      "SMS": true,
+      "Payments": true,
+      "QRPayments": true,
+      "SOSWithLocation": true,
+      "EmergencyDispatch": true
+    },
+    "Payments": {
+      "DailyTransferLimit": 20000,
+      "BankApprovalRequired": true,
+      "BankApprovalThreshold": 20000
+    },
+    "Emergency": {
+      "PoliceDispatch": true,
+      "EMSDispatch": true,
+      "PostalGridIncluded": true,
+      "DistrictIncluded": true
+    },
+    "Exclusions": [
+      "job_applications_via_discord",
+      "admin_support_via_discord"
+    ]
+  },
+  "Radio": {
+    "OneTimePurchase": true,
+    "EncryptedChannels": [
+      "police",
+      "ems"
+    ],
+    "KeyRotation": {
+      "AdminCommand": "/radio-rotatekeys",
+      "LogRotations": true,
+      "RequiredLevel": "A2"
+    }
+  },
+  "PostalGrid": {
+    "Format": "4-digit",
+    "IncludeDistricts": true,
+    "ExampleCode": "1243"
+  },
+  "SchemaVersion": "1.0.0",
+  "BuildID": "DICTATOR_RP_V1"
+}

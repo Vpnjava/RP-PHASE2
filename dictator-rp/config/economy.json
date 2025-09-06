@@ -1,0 +1,54 @@
+{
+  "Currency": {
+    "WhiteMoney": {
+      "CanBank": true,
+      "Description": "Legal currency for legitimate transactions"
+    },
+    "RedMoney": {
+      "CanBank": false,
+      "MustLaunder": true,
+      "Description": "Illicit currency from criminal activities"
+    }
+  },
+  "Jobs": {
+    "Mechanic": {
+      "BasePay": 250,
+      "TaxRate": 0.05,
+      "Description": "Vehicle repair and maintenance"
+    },
+    "Trucker": {
+      "BasePay": 400,
+      "TaxRate": 0.07,
+      "Description": "Transport and delivery services"
+    },
+    "Fisherman": {
+      "BasePay": 180,
+      "TaxRate": 0.04,
+      "Description": "Fishing and seafood collection"
+    },
+    "Miner": {
+      "BasePay": 320,
+      "TaxRate": 0.06,
+      "Description": "Resource extraction and mining"
+    },
+    "Farmer": {
+      "BasePay": 200,
+      "TaxRate": 0.04,
+      "Description": "Agricultural production"
+    }
+  },
+  "Taxes": {
+    "GeneralSalesTax": 0.08,
+    "PropertyTax": 0.02,
+    "VehicleTax": 0.05,
+    "DisplayInUI": true
+  },
+  "Prices": {
+    "AutoRebalance": false,
+    "AdminAlertsEnabled": true,
+    "WeaponLicenseFee": 500,
+    "HospitalFee": 5000
+  },
+  "SchemaVersion": "1.0.0",
+  "BuildID": "DICTATOR_RP_V1"
+}

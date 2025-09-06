@@ -1,0 +1,44 @@
+{
+  "VehicleTrunk": {
+    "ShareTTLSeconds": 900,
+    "LogAllShares": true,
+    "AllowRedItems": true
+  },
+  "TrunkCapacities": {
+    "sedan": {
+      "min_kg": 40,
+      "max_kg": 60
+    },
+    "suv": {
+      "min_kg": 50,
+      "max_kg": 80
+    },
+    "van": {
+      "min_kg": 70,
+      "max_kg": 120
+    },
+    "truck": {
+      "min_kg": 100,
+      "max_kg": 200
+    }
+  },
+  "RepairKits": {
+    "light_repair": {
+      "max_health_restore": 60,
+      "price": 150,
+      "availability": "common"
+    },
+    "advanced_repair": {
+      "max_health_restore": 100,
+      "price": 800,
+      "availability": "rare"
+    }
+  },
+  "Impound": {
+    "RequiredRank": "police.private",
+    "ImpoundFee": 500,
+    "StorageDurationHours": 72
+  },
+  "SchemaVersion": "1.0.0",
+  "BuildID": "DICTATOR_RP_V1"
+}

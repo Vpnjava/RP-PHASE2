@@ -1,0 +1,37 @@
+{
+  "ReviveFee": 5000,
+  "DeathDecayMin": 10,
+  "ReviveTimeSeconds": 20,
+  "HospitalFeeAutoDeduct": true,
+  "stations": {
+    "north_ems": {
+      "name": "Northern EMS Station",
+      "coordinates": [0, 0, 0]
+    },
+    "central_ems": {
+      "name": "Central EMS Station",
+      "coordinates": [0, 0, 0]
+    },
+    "south_ems": {
+      "name": "Southern EMS Station", 
+      "coordinates": [0, 0, 0]
+    }
+  },
+  "equipment": {
+    "ambulance_capacity": 2,
+    "medical_supplies": [
+      "defibrillator",
+      "medical_kit",
+      "stretcher",
+      "oxygen_tank"
+    ]
+  },
+  "policies": {
+    "wait_for_police_during_crimes": true,
+    "broadcast_death_alerts": true,
+    "single_medic_accept": true,
+    "clear_items_on_decay": true
+  },
+  "SchemaVersion": "1.0.0",
+  "BuildID": "DICTATOR_RP_V1"
+}

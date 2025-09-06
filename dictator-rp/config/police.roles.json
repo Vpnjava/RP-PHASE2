@@ -1,0 +1,128 @@
+{
+  "roles": [
+    {
+      "code": "police.recruit",
+      "name_ar": "مجند",
+      "isHighCommand": false,
+      "permissions": [
+        "patrol",
+        "traffic_stop",
+        "basic_report"
+      ]
+    },
+    {
+      "code": "police.private",
+      "name_ar": "جندي",
+      "isHighCommand": false,
+      "permissions": [
+        "impound_local",
+        "bolo",
+        "evidence_mark",
+        "supervise_stop",
+        "issue_fines"
+      ]
+    },
+    {
+      "code": "police.corporal",
+      "name_ar": "عريف",
+      "isHighCommand": false,
+      "permissions": [
+        "checkpoint_setup",
+        "seize_contraband",
+        "lead_patrol"
+      ]
+    },
+    {
+      "code": "police.sergeant",
+      "name_ar": "رقيب",
+      "isHighCommand": false,
+      "permissions": [
+        "checkpoint_approve",
+        "seize_contraband",
+        "lead_squad",
+        "training_assist"
+      ]
+    },
+    {
+      "code": "police.lieutenant",
+      "name_ar": "ملازم",
+      "isHighCommand": true,
+      "permissions": [
+        "warrant_sign",
+        "roadblock_short",
+        "raid_prep_limited",
+        "evidence_audit"
+      ]
+    },
+    {
+      "code": "police.captain",
+      "name_ar": "نقيب",
+      "isHighCommand": true,
+      "permissions": [
+        "raid_authorize",
+        "evidence_audit",
+        "discipline_issue",
+        "promote_demote_lower"
+      ]
+    },
+    {
+      "code": "police.major",
+      "name_ar": "رائد",
+      "isHighCommand": true,
+      "permissions": [
+        "department_policy",
+        "high_value_raids",
+        "inter_department_coord"
+      ]
+    },
+    {
+      "code": "police.colonel",
+      "name_ar": "عقيد",
+      "isHighCommand": true,
+      "permissions": [
+        "strategic_operations",
+        "budget_approval",
+        "external_relations"
+      ]
+    },
+    {
+      "code": "police.general",
+      "name_ar": "لواء",
+      "isHighCommand": true,
+      "permissions": [
+        "full_command",
+        "policy_creation",
+        "departmental_oversight"
+      ]
+    }
+  ],
+  "fines": {
+    "wrong_parking": 200,
+    "running_red_light": 600,
+    "speeding_tier1": 300,
+    "speeding_tier2": 600,
+    "speeding_tier3": 1200,
+    "reckless_driving": 1000,
+    "fleeing_scene": 1000,
+    "failure_show_id": 300,
+    "unlicensed_weapon": 1500,
+    "obstructing_ems_police": 800,
+    "money_laundering_attempt": 2000
+  },
+  "stations": {
+    "north_hq": {
+      "name": "Northern Police HQ",
+      "coordinates": [0, 0, 0]
+    },
+    "central_hq": {
+      "name": "Central Police HQ", 
+      "coordinates": [0, 0, 0]
+    },
+    "south_hq": {
+      "name": "Southern Police HQ",
+      "coordinates": [0, 0, 0]
+    }
+  },
+  "SchemaVersion": "1.0.0",
+  "BuildID": "DICTATOR_RP_V1"
+}

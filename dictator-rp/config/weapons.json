@@ -1,0 +1,49 @@
+{
+  "WeaponLicense": {
+    "EligibilityPeriod": "7_days_clean_record",
+    "RequiredTraining": true,
+    "TheoryTest": true,
+    "RangeTest": true,
+    "LicenseFee": 500,
+    "NoRenewalRequired": true,
+    "Penalties": {
+      "UnlicensedCarrying": {
+        "Fine": 1500,
+        "Confiscation": true,
+        "JailTime": {
+          "min": 10,
+          "max": 15
+        }
+      }
+    },
+    "Revocation": {
+      "AuthorizedRanks": [
+        "police.lieutenant",
+        "police.captain", 
+        "police.major",
+        "police.colonel",
+        "police.general"
+      ],
+      "LogAllActions": true,
+      "ReapplyAllowed": true
+    }
+  },
+  "Stores": {
+    "WeaponShop": {
+      "RequiresLicense": true,
+      "IDCheckMandatory": true,
+      "PurchaseLogging": true
+    },
+    "GeneralStore": {
+      "Items": [
+        "food",
+        "drinks", 
+        "tools",
+        "clothing"
+      ],
+      "TaxRate": 0.08
+    }
+  },
+  "SchemaVersion": "1.0.0",
+  "BuildID": "DICTATOR_RP_V1"
+}

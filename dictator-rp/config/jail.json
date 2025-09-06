@@ -1,0 +1,65 @@
+{
+  "JailSentences": {
+    "RPMonthScale": "1_real_minute",
+    "Sentences": {
+      "resisting_officer": {
+        "min": 10,
+        "max": 20
+      },
+      "store_robbery": {
+        "min": 20,
+        "max": 30
+      },
+      "bank_robbery": {
+        "min": 40,
+        "max": 60
+      },
+      "unlicensed_weapon": {
+        "min": 10,
+        "max": 15
+      },
+      "smuggling_minor": {
+        "min": 15,
+        "max": 25
+      },
+      "smuggling_major": {
+        "min": 30,
+        "max": 45
+      },
+      "attempted_murder": {
+        "min": 50,
+        "max": 70
+      },
+      "murder": {
+        "min": 60,
+        "max": 90
+      },
+      "kidnapping": {
+        "min": 35,
+        "max": 50
+      },
+      "obstruction_justice": {
+        "min": 10,
+        "max": 20
+      },
+      "assault_ems": {
+        "min": 30,
+        "max": 60
+      },
+      "prison_escape": {
+        "min": 40,
+        "max": 60
+      },
+      "possession_police_gear": {
+        "min": 15,
+        "max": 25
+      },
+      "conspiracy_major_crime": {
+        "min": 20,
+        "max": 40
+      }
+    }
+  },
+  "SchemaVersion": "1.0.0",
+  "BuildID": "DICTATOR_RP_V1"
+}

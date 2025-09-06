@@ -1,0 +1,84 @@
+{
+  "LicenseGuard": {
+    "AuthorizedServers": [
+      {
+        "ServerGUID": "EXAMPLE_GUID_CHANGE_THIS",
+        "IPOrCIDR": "127.0.0.1/32",
+        "Description": "Local development server"
+      }
+    ],
+    "TamperChecks": {
+      "Enabled": true,
+      "CheckInterval": 300,
+      "FailureAction": "safe_refusal"
+    }
+  },
+  "ConfigProtection": {
+    "UseHMAC": true,
+    "RequireSchemaVersion": true,
+    "RequireBuildID": true,
+    "HotReloadGated": true
+  },
+  "AFK": {
+    "TimeoutSec": 300,
+    "RecheckSec": 30,
+    "ExcludeFromPoliceCount": true
+  },
+  "Logging": {
+    "SecurityEvents": true,
+    "RetentionDays": 30,
+    "LogPath": "/logs/security/",
+    "FailedLoginAttempts": true
+  },
+  "AdminLevels": {
+    "A1": {
+      "name": "Global Admin",
+      "capabilities": [
+        "noclip",
+        "fly", 
+        "invisibility",
+        "spectate",
+        "grant_money",
+        "grant_xp",
+        "force_commands",
+        "rotate_radio_keys",
+        "evidence_audit",
+        "ban",
+        "mute",
+        "config_hot_reload"
+      ]
+    },
+    "A2": {
+      "name": "Sub-Admin",
+      "capabilities": [
+        "noclip",
+        "fly",
+        "invisibility", 
+        "spectate",
+        "force_commands",
+        "rotate_radio_keys",
+        "evidence_audit",
+        "ban",
+        "mute",
+        "config_hot_reload"
+      ]
+    },
+    "A2.RO": {
+      "name": "Sub-Admin Read-Only",
+      "capabilities": [
+        "spectate",
+        "rotate_radio_keys",
+        "evidence_audit",
+        "config_hot_reload"
+      ]
+    },
+    "A3": {
+      "name": "Assistant",
+      "capabilities": [
+        "spectate"
+      ]
+    }
+  },
+  "SchemaVersion": "1.0.0",
+  "BuildID": "DICTATOR_RP_V1"
+}

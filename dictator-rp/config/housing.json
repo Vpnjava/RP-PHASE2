@@ -1,0 +1,35 @@
+{
+  "RealEstate": {
+    "OwnershipType": "monthly_rental",
+    "BillingCycle": "7_real_days",
+    "GracePeriod": "24_hours",
+    "PreserveOnEviction": true
+  },
+  "Properties": {
+    "SmallHouse": {
+      "MonthlyRent": 2500,
+      "StorageCapacity": 100,
+      "WardrobeSlots": 10,
+      "SupportsRedItems": true
+    },
+    "MediumHouse": {
+      "MonthlyRent": 4000,
+      "StorageCapacity": 200,
+      "WardrobeSlots": 15,
+      "SupportsRedItems": true
+    },
+    "LargeHouse": {
+      "MonthlyRent": 6500,
+      "StorageCapacity": 350,
+      "WardrobeSlots": 25,
+      "SupportsRedItems": true
+    }
+  },
+  "Taxation": {
+    "PropertyTaxRate": 0.02,
+    "IncludedInBilling": true,
+    "AutoDebitFromWhite": true
+  },
+  "SchemaVersion": "1.0.0",
+  "BuildID": "DICTATOR_RP_V1"
+}

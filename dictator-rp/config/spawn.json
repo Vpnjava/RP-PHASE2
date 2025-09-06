@@ -1,0 +1,21 @@
+{
+  "DefaultSpawn": {
+    "coordinates": [6144, 100, 6144],
+    "name": "Safe Zone Central",
+    "description": "Main city safe zone spawn point"
+  },
+  "SpawnPolicy": {
+    "FirstJoin": "default",
+    "PostDecayRespawn": "default", 
+    "GovernmentRoles": "default",
+    "NoteForGovRoles": "Government roles must gear up at HQ after spawning"
+  },
+  "SafeZone": {
+    "coordinates": [6144, 100, 6144],
+    "radius": 500,
+    "CombatRestricted": true,
+    "ViolationAction": "admin_intervention"
+  },
+  "SchemaVersion": "1.0.0",
+  "BuildID": "DICTATOR_RP_V1"
+}
